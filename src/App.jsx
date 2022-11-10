@@ -1,9 +1,10 @@
 import React from "react";
+import ListVideos from "./components/ListVideos";
 
 const App = () => {
   return (
     <div>
-      <p>Your cleaned App component</p>
+      <ListVideos />
     </div>
   );
 };
